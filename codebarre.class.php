@@ -59,7 +59,7 @@ class CodeBarre
         $elementC[4] = '1011100';
         $elementC[5] = '1001110';
         $elementC[6] = '1010000';
-        $elementC[7] = '100X000';
+        $elementC[7] = '1001000';
         $elementC[8] = '1001000';
         $elementC[9] = '1110100';
     }
