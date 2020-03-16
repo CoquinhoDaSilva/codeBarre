@@ -23,33 +23,33 @@ class CodeBarre
     public function dessine($numero)
     {
 
-        $gardegauche = "X_X";
-        $gardedroite = "X_X";
-        $gardecentrale = "_X_X_";
+        $gardegauche = "101";
+        $gardedroite = "101";
+        $gardecentrale = "01010";
 
         $elementA = [];
-        $elementA[0] = "___XX_X";
-        $elementA[1] = "__XX__X";
-        $elementA[2] = "__X__XX";
-        $elementA[3] = "_XXXX_X";
-        $elementA[4] = "_X___XX";
-        $elementA[5] = "_XX___X";
-        $elementA[6] = "_X_XXXX";
-        $elementA[7] = "_XXX_XX";
-        $elementA[8] = "_XX_XXX";
-        $elementA[9] = "___X_XX";
+        $elementA[0] = "0001101";
+        $elementA[1] = "0011001";
+        $elementA[2] = "0010011";
+        $elementA[3] = "0111101";
+        $elementA[4] = "0100011";
+        $elementA[5] = "0110001";
+        $elementA[6] = "0101111";
+        $elementA[7] = "0111011";
+        $elementA[8] = "0110111";
+        $elementA[9] = "0001011";
 
         $elementB = [];
-        $elementB[0] = "_X__XXX";
-        $elementB[1] = "_XX__XX";
-        $elementB[2] = "__XX_XX";
-        $elementB[3] = "_X____X";
-        $elementB[4] = "__XXX_X";
-        $elementB[5] = "_XXX__X";
-        $elementB[6] = "____X_X";
-        $elementB[7] = "__X___X";
-        $elementB[8] = "___X__X";
-        $elementB[9] = "__X_XXX";
+        $elementB[0] = "0100111";
+        $elementB[1] = "0110011";
+        $elementB[2] = "0011011";
+        $elementB[3] = "0100001";
+        $elementB[4] = "0011101";
+        $elementB[5] = "0111001";
+        $elementB[6] = "0000101";
+        $elementB[7] = "0010001";
+        $elementB[8] = "0001001";
+        $elementB[9] = "0010111";
 
         $elementC = [];
         $elementC[0] = '1110010';
