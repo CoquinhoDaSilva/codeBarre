@@ -3,7 +3,7 @@
 
 include_once 'codebarre.class.php';
 
-$codeBarre = str_split("12345678");
+$codeBarre = str_split("87654321");
 
 
 $gardecentre = "01010";
@@ -43,17 +43,31 @@ $elementC[3] = '1000010';
 $elementC[4] = '1011100';
 $elementC[5] = '1001110';
 $elementC[6] = '1010000';
-$elementC[7] = '1001000';
+$elementC[7] = '1000100';
 $elementC[8] = '1001000';
 $elementC[9] = '1110100';
 
 
 
-for ($i = 0; $i < 4; $i++ ) {
-    if ($codeBarre[] = $i) {
-        echo $codeBarre;
-    }
+/* for ($i = 0; $i < 4; $i++ ) {
+    $codeBarre[$i];
 }
+*/
+    echo $gardegauche . " ";
+    for ($i = 0; $i < 4; $i++) {
+        echo $elementA[$codeBarre[$i]] . " ";
+    }
+    echo $gardecentre . " ";
+    for ($i = 4; $i < 8; $i++) {
+        echo $elementC[$codeBarre[$i]] . " ";
+    }
+    echo $gardedroite . " ";
+
+
+
+
+
+
 
 
 
@@ -85,4 +99,3 @@ for ($i = 0; $i < 4; $i++ ) {
     }*/
 
 
-echo "101";
