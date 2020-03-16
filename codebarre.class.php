@@ -52,15 +52,15 @@ class CodeBarre
         $elementB[9] = "__X_XXX";
 
         $elementC = [];
-        $elementC[0] = 'XXX__X_';
-        $elementC[1] = 'XX__XX_';
-        $elementC[2] = 'XX_XX__';
-        $elementC[3] = 'X____X_';
-        $elementC[4] = 'X_XXX__';
-        $elementC[5] = 'X__XXX_';
-        $elementC[6] = 'X_X____';
-        $elementC[7] = 'X__X___';
-        $elementC[8] = 'X__X___';
-        $elementC[9] = 'XXX_X__';
+        $elementC[0] = '1110010';
+        $elementC[1] = '1100110';
+        $elementC[2] = '1101100';
+        $elementC[3] = '1000010';
+        $elementC[4] = '1011100';
+        $elementC[5] = '1001110';
+        $elementC[6] = '1010000';
+        $elementC[7] = '100X000';
+        $elementC[8] = '1001000';
+        $elementC[9] = '1110100';
     }
 }
