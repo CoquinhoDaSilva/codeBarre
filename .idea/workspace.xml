@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="664bf770-44a8-4ce3-9ebb-777e696e8cb1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codebarre.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/codebarre.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584348650700</updated>
       <workItem from="1584348652095" duration="10318000" />
-      <workItem from="1584364660482" duration="183000" />
+      <workItem from="1584364660482" duration="1296000" />
     </task>
     <task id="LOCAL-00001" summary="initialisation">
       <created>1584349103833</created>
@@ -118,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584362391971</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="initialisation">
+      <created>1584364866542</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584364866542</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,10 +152,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="356" y="38" key="#codebarre.class.php/0.0.1280.689@0.0.1280.689" timestamp="1584362344794" />
-    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1584362391144">
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1584364865550">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1584362391144" />
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1584364865550" />
     <state x="93" y="93" width="1095" height="504" key="DiffContextDialog" timestamp="1584349771481">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -162,10 +168,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="477" y="265" key="NewPhpFileDialog/0.0.1280.689@0.0.1280.689" timestamp="1584348850831" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1584362446721">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1584364875591">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1584362446721" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1584364875591" />
     <state x="314" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1584364662888">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -186,5 +192,9 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="297" y="153" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1584362294596" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1584365614838">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1584365614838" />
   </component>
 </project>
