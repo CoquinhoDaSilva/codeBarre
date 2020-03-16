@@ -4,7 +4,6 @@
     <list default="true" id="664bf770-44a8-4ce3-9ebb-777e696e8cb1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codebarre.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/codebarre.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RunManager">
+    <configuration name="codebarre.class.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/codebarre.class.php">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -40,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584348650700</updated>
-      <workItem from="1584348652095" duration="6967000" />
+      <workItem from="1584348652095" duration="8491000" />
     </task>
     <task id="LOCAL-00001" summary="initialisation">
       <created>1584349103833</created>
@@ -98,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584355566647</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="initialisation">
+      <created>1584356789500</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584356789500</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,10 +131,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="initialisation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1584355565853">
+    <state x="356" y="38" key="#codebarre.class.php" timestamp="1584362344794">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1584355565853" />
+    <state x="356" y="38" key="#codebarre.class.php/0.0.1280.689@0.0.1280.689" timestamp="1584362344794" />
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1584356788743">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1584356788743" />
     <state x="93" y="93" width="1095" height="504" key="DiffContextDialog" timestamp="1584349771481">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -136,13 +151,21 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="477" y="265" key="NewPhpFileDialog/0.0.1280.689@0.0.1280.689" timestamp="1584348850831" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1584355574462">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1584356814733">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1584355574462" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1584356814733" />
     <state x="449" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584349506467">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="449" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689@0.0.1280.689" timestamp="1584349506467" />
+    <state x="32" y="119" key="git4idea.merge.GitPullDialog" timestamp="1584357552339">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="32" y="119" key="git4idea.merge.GitPullDialog/0.0.1280.689@0.0.1280.689" timestamp="1584357552339" />
+    <state x="297" y="153" key="run.anything.popup" timestamp="1584362294596">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1584362294596" />
   </component>
 </project>
