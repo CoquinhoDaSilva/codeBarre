@@ -1,15 +1,9 @@
 <?php
-
-
-include_once 'codebarre.class.php';
-
-$codeBarre = str_split("87654321");
-
+$codeBarre = str_split("59038207");
 
 $gardecentre = "01010";
 $gardegauche = "101";
 $gardedroite = "101";
-
 
 $elementA = [];
 $elementA[0] = "0001101";
@@ -47,55 +41,23 @@ $elementC[7] = '1000100';
 $elementC[8] = '1001000';
 $elementC[9] = '1110100';
 
-
-
-/* for ($i = 0; $i < 4; $i++ ) {
-    $codeBarre[$i];
-}
-*/
-    echo $gardegauche . " ";
+    $chaine = $gardegauche;
     for ($i = 0; $i < 4; $i++) {
-        echo $elementA[$codeBarre[$i]] . " ";
+        $chaine .= $elementA[$codeBarre[$i]];
     }
-    echo $gardecentre . " ";
+    $chaine .= $gardecentre;
     for ($i = 4; $i < 8; $i++) {
-        echo $elementC[$codeBarre[$i]] . " ";
+        $chaine .= $elementC[$codeBarre[$i]];
     }
-    echo $gardedroite . " ";
+    $chaine .= $gardedroite;
 
+    $resultat = str_split($chaine);
 
-
-
-
-
-
-
-
-    /*for ($i = 0; $i <= 9; $i++) {
-        if ($chiffre[0] == $i) {
-            $chiffre[0] = $elementA[$i];
+    foreach ($resultat as $result) {
+        if ($result == 0) {
+            echo "<div style='background-color:white;width:2px;height:50px;float:left'></div>";
+        } else {
+            echo "<div style='background-color:black;width:2px;height:50px;float:left'></div>";
         }
-        if ($chiffre[1] == $i) {
-            $chiffre[1] = $elementA[$i];
-        }
-        if ($chiffre[2] == $i) {
-            $chiffre[2] = $elementA[$i];
-        }
-        if ($chiffre[3] == $i) {
-            $chiffre[3] = $elementA[$i];
-        }
-        if ($chiffre[4] == $i) {
-            $chiffre[4] = $elementB[$i];
-        }
-        if ($chiffre[5] == $i) {
-            $chiffre[5] = $elementB[$i];
-        }
-        if ($chiffre[6] == $i) {
-            $chiffre[6] = $elementB[$i];
-        }
-        if ($chiffre[7] == $i) {
-            $chiffre[7] = $elementB[$i];
-        }
-    }*/
-
+    }
 
