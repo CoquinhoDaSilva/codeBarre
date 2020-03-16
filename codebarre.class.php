@@ -11,11 +11,13 @@ class CodeBarre
     public $elementC;
     public $numero;
 
-    public function __construct($gardegauche, $numero, $gardedroite)
+    public function __construct($numero)
     {
         $this->numero = $numero;
-        $this->gauche = $gardegauche;
-        $this->droite = $gardedroite;
+    }
+
+    public function getCodeBarre() {
+        return $this->$numero;
     }
 
     public function dessine($numero)

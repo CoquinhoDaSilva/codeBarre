@@ -3,7 +3,7 @@
 
 include_once 'codebarre.class.php';
 
-$codeBarre = new CodeBarre;
 
+// $codeBarre = new CodeBarre("12345678");
 
-$codeBarre->dessine(59038207);
+var_dump(str_split("12345678"));
