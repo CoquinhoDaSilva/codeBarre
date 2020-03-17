@@ -12,10 +12,10 @@ class CodeBarre {
         $this->numero = $numero;
     }
 
-    public function dessine($numero) {
-        return $this->dessine;
+    public function dessine() {
 
-        $codeBarre = str_split("59038207");
+
+        $codeBarre = str_split($this->numero);
 
         $gardecentre = "01010";
         $gardegauche = "101";
@@ -76,6 +76,8 @@ class CodeBarre {
                 echo "<div style='background-color:black;width:2px;height:50px;float:left'></div>";
             }
         }
+
+
 
 }
 
