@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="664bf770-44a8-4ce3-9ebb-777e696e8cb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CodeBarre.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codebarre.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/codebarre.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +49,8 @@
       <workItem from="1584348652095" duration="10318000" />
       <workItem from="1584364660482" duration="3081000" />
       <workItem from="1584367772993" duration="49000" />
-      <workItem from="1584367946597" duration="7693000" />
+      <workItem from="1584367946597" duration="7860000" />
+      <workItem from="1584434207170" duration="2016000" />
     </task>
     <task id="LOCAL-00001" summary="initialisation">
       <created>1584349103833</created>
@@ -153,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584375667643</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="initialisation">
+      <created>1584376050630</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1584376050630</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,10 +192,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="356" y="38" key="#codebarre.class.php/0.0.1280.689@0.0.1280.689" timestamp="1584362344794" />
-    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1584375666576">
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1584436249948">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1584375666576" />
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1584436249948" />
     <state x="93" y="93" width="1095" height="504" key="DiffContextDialog" timestamp="1584349771481">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -193,18 +204,18 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="471" y="144" key="NewPhpClassDialog/0.0.1280.689@0.0.1280.689" timestamp="1584348709257" />
-    <state x="477" y="265" key="NewPhpFileDialog" timestamp="1584348850831">
+    <state x="477" y="265" key="NewPhpFileDialog" timestamp="1584434446326">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="477" y="265" key="NewPhpFileDialog/0.0.1280.689@0.0.1280.689" timestamp="1584348850831" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1584375683506">
+    <state x="477" y="265" key="NewPhpFileDialog/0.0.1280.689@0.0.1280.689" timestamp="1584434446326" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1584376060546">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1584375683506" />
-    <state x="314" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1584367959283">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1584376060546" />
+    <state x="314" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1584434207833">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="314" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1584367959283" />
+    <state x="314" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1584434207833" />
     <state x="449" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584349506467">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

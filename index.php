@@ -1,4 +1,7 @@
 <?php
+
+inluce_once 'codebarre.class.php'
+
 $codeBarre = str_split("59038207");
 
 $gardecentre = "01010";

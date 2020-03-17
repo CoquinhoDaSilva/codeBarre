@@ -1,31 +1,25 @@
 <?php
 
+class CodeBarre {
 
-class CodeBarre
-{
+    public $gardecentre;
     public $gardegauche;
     public $gardedroite;
-    public $gardecentre;
-    public $elementA;
-    public $elementB;
-    public $elementC;
     public $numero;
 
-    public function __construct($numero)
-    {
+
+    public function __construct($numero) {
         $this->numero = $numero;
     }
 
-    public function getCodeBarre() {
-        return $this->$numero;
-    }
+    public function dessine($numero) {
+        return $this->dessine;
 
-    public function dessine($numero)
-    {
+        $codeBarre = str_split("59038207");
 
+        $gardecentre = "01010";
         $gardegauche = "101";
         $gardedroite = "101";
-        $gardecentrale = "01010";
 
         $elementA = [];
         $elementA[0] = "0001101";
@@ -59,8 +53,33 @@ class CodeBarre
         $elementC[4] = '1011100';
         $elementC[5] = '1001110';
         $elementC[6] = '1010000';
-        $elementC[7] = '1001000';
+        $elementC[7] = '1000100';
         $elementC[8] = '1001000';
         $elementC[9] = '1110100';
-    }
+
+        $chaine = $gardegauche;
+        for ($i = 0; $i < 4; $i++) {
+            $chaine .= $elementA[$codeBarre[$i]];
+        }
+        $chaine .= $gardecentre;
+        for ($i = 4; $i < 8; $i++) {
+            $chaine .= $elementC[$codeBarre[$i]];
+        }
+        $chaine .= $gardedroite;
+
+        $resultat = str_split($chaine);
+
+        foreach ($resultat as $result) {
+            if ($result == 0) {
+                echo "<div style='background-color:white;width:2px;height:50px;float:left'></div>";
+            } else {
+                echo "<div style='background-color:black;width:2px;height:50px;float:left'></div>";
+            }
+        }
+
 }
+
+
+
+}
+
