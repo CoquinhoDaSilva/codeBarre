@@ -140,11 +140,9 @@ class CodeBarre
 
         $chaine = $gardegauche;
 
-        /* ean13
         $elementAB = [];
-
-        $elementAB[
-            'A' =>  [
+        $elementAB =
+            ['A' =>  [
                     '0' => "0001101",
                     '1' => "0011001",
                     '2' => "0010011",
@@ -154,9 +152,9 @@ class CodeBarre
                     '6' => "0101111",
                     '7' => "0111011",
                     '8' => "0110111",
-                    '9' => "0001011",
-            ]
-            'B' => [
+                    '9' => "0001011"]
+            ,
+            ['B' => [
                     '0' => "0100111",
                     '1' => "0110011",
                     '2' => "0011011",
@@ -166,19 +164,21 @@ class CodeBarre
                     '6' => "0000101",
                     '7' => "0010001",
                     '8' => "0001001",
-                    '9' => "0010111",
+                    '9' => "0010111"]
             ]
-        ]
+        ];
 
-        $elementAB[str_split($matrice[substr(($this->numero), 0, 1)])][[$codeBarre[$i]];
+        $key = substr(($this->numero), 0, 1);
+        $matrice_a_utiliser = $matrice[$key];
+        $tableau_matrice = str_split($matrice_a_utiliser);
 
-        $matrice[substr(($this->numero), 0, 1)];
-        str_split($matrice[substr(($this->numero), 0, 1)])[1];
 
-        */
-
-        for ($i = 0; $i < 7; $i++) {
-            $chaine .= $elementA[$codeBarre[$i]];
+        for ($i = 1; $i <= 6; $i++) {
+            if ($tableau_matrice[$i-1] == "A") {
+                $chaine .= $elementA[$codeBarre[$i]];
+            } else {
+                $chaine .= $elementB[$codeBarre[$i]];
+            }
         }
         $chaine .= $gardecentre;
         for ($i = 7; $i < 13; $i++) {
