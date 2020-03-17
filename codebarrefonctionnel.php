@@ -45,6 +45,7 @@ $elementC[8] = '1001000';
 $elementC[9] = '1110100';
 
     $chaine = $gardegauche;
+
     for ($i = 0; $i < 4; $i++) {
         $chaine .= $elementA[$codeBarre[$i]];
     }
